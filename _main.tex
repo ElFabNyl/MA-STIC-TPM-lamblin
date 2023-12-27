@@ -1,0 +1,40 @@
+\documentclass{article}
+
+% Language setting
+\usepackage[english]{babel}
+
+% Set page size and margins
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm, columnsep=1cm]{geometry}
+
+% Useful packages
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+
+\begin{document}
+
+\input{0.title}
+
+\maketitle
+
+\input{1.abstract}
+
+
+\begin{multicols}{2}
+
+\input{2.introduction}
+\input{3.theorical foundation}
+\input{4.impact of ai MI}
+\input{5.challenges and issues}
+\input{6.solution and propects}
+\input{7.case studies}
+\input{8.conclusion}
+
+
+\end{multicols}
+
+%\bibliographystyle{ieeetr}
+\bibliography{references}
+\end{document}
