@@ -1,5 +1,5 @@
-\documentclass{article}
-
+\documentclass[12pt]{article}
+\usepackage{graphicx}
 % Language setting
 \usepackage[english]{babel}
 
@@ -7,15 +7,11 @@
 \usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm, columnsep=1cm]{geometry}
 
 % Useful packages
-
-
 \usepackage{graphicx}
 \usepackage{lipsum}
 \usepackage{multicol}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
-%\usepackage{biblatex}
-\usepackage[style=ieee]{biblatex}
-\addbibresource{references.bib}
+
 
 
 \begin{document}
@@ -26,8 +22,6 @@
 
 \input{1.abstract}
 
-\begin{multicols}{2}
-
 \input{2.introduction}
 \input{3.theorical Foundation}
 \input{4.impact of ai mi}
@@ -36,7 +30,6 @@
 \input{7.case study}
 \input{8.conclusion}
 
-\end{multicols}
-
-\printbibliography
+\bibliographystyle{ieeetr}
+\bibliography{references}
 \end{document}
