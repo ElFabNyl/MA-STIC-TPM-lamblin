@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  3 JAN 2024 04:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  4 JAN 2024 03:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,7 +361,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip52
-) (_main.aux)
+) (_main.aux
+
+LaTeX Warning: Label `fig:your_label' multiply defined.
+
+)
 \openout1 = `_main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -483,7 +487,7 @@ LaTeX Warning: Citation `IBM2023' on page 2 undefined on input line 3.
 
 LaTeX Warning: Citation `QuEstceQu' on page 2 undefined on input line 3.
 
-<images/deepNeural.PNG, id=14, 430.0065pt x 258.36525pt>
+<images/deepNeural.PNG, id=45, 430.0065pt x 258.36525pt>
 File: images/deepNeural.PNG Graphic file (type png)
 <use images/deepNeural.PNG>
 Package pdftex.def Info: images/deepNeural.PNG  used on input line 7.
@@ -501,7 +505,7 @@ input line 12.
 LaTeX Warning: Citation `WhatGenerativeAdversarial' on page 3 undefined on inpu
 t line 15.
 
-<images/GAN_architecture.PNG, id=24, 445.06274pt x 266.1945pt>
+<images/GAN_architecture.PNG, id=53, 445.06274pt x 266.1945pt>
 File: images/GAN_architecture.PNG Graphic file (type png)
 <use images/GAN_architecture.PNG>
 Package pdftex.def Info: images/GAN_architecture.PNG  used on input line 20.
@@ -514,9 +518,9 @@ on input line 21.
 LaTeX Warning: Citation `negiDeepFakeUnderstanding2021' on page 3 undefined on 
 input line 24.
 
-) (4.impact of ai mi.tex) (5.challenges and issues.tex [3 <./images/GAN_archite
-cture.PNG>]) (6.solutions and prospects.tex) (7.case study.tex)
-(8.conclusion.tex) (_main.bbl) [4] (_main.aux)
+) (4.impact of ai mi.tex) (6.solutions and prospects.tex [3 <./images/GAN_archi
+tecture.PNG>]) (7.case study.tex) (8.conclusion.tex) (_main.bbl) [4] (_main.aux
+)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -526,22 +530,16 @@ L3 programming layer <2023-08-29>
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  7BE405702819D53429228603FDDA90E2;1325.
+Package rerunfilecheck Info: File `_main.out' has not changed.
+(rerunfilecheck)             Checksum: 1B95AC9C6E1454214BE943462BA947D4;1171.
  ) 
 Here is how much of TeX's memory you used:
  10603 strings out of 475247
- 175697 string characters out of 5755396
+ 175555 string characters out of 5755396
  1931801 words of memory out of 5000000
- 31949 multiletter control sequences out of 15000+600000
+ 31955 multiletter control sequences out of 15000+600000
  562408 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,7n,93p,2011b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -551,9 +549,9 @@ public/amsfonts/cm/cmbx12.pfb><C:/Users/El Fab Nyl/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/El Fab Nyl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/El Fab Nyl/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on _main.pdf (4 pages, 438875 bytes).
+Output written on _main.pdf (4 pages, 441023 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
