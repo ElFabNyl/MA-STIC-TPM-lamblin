@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  5 JAN 2024 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  6 JAN 2024 03:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -531,8 +531,17 @@ ed on input line 4.
 LaTeX Warning: Citation `boydensOceanDonneesCanal2012a' on page 4 undefined on 
 input line 5.
 
-) (6.solutions and prospects.tex) (7.case study.tex [4]) (8.conclusion.tex)
-(_main.bbl) [5] (_main.aux)
+) (6.solutions and prospects.tex
+
+LaTeX Warning: Citation `kanohWhyPeopleBelieve2018' on page 4 undefined on inpu
+t line 2.
+
+[4]
+
+LaTeX Warning: Citation `zhuAIEthicsOperationalizing2022' on page 5 undefined o
+n input line 4.
+
+) (7.case study.tex) (8.conclusion.tex) [5] (_main.bbl) (_main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -541,8 +550,14 @@ L3 programming layer <2023-08-29>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 17F453D4CE0DB2BC1E199107D84C0E15;1335.
+
+Package rerunfilecheck Warning: File `_main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `_main.out':
+(rerunfilecheck)             Before: 17F453D4CE0DB2BC1E199107D84C0E15;1335
+(rerunfilecheck)             After:  8C7B11738DB4A15DA3572FB91B19C3E9;1317.
  ) 
 Here is how much of TeX's memory you used:
  10607 strings out of 475247
@@ -558,7 +573,7 @@ public/amsfonts/cm/cmbx12.pfb><C:/Users/El Fab Nyl/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/El Fab Nyl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/El Fab Nyl/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on _main.pdf (5 pages, 446626 bytes).
+Output written on _main.pdf (5 pages, 449315 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
