@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  6 JAN 2024 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  6 JAN 2024 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,8 +464,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <14.4> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 19.
- (1.abstract.tex)
-(2.introduction.tex
+ (1.abstract.tex
+
+LaTeX Warning: Citation `IntelligenceArtificielleDefinition' on page 1 undefine
+d on input line 2.
+
+) (2.introduction.tex
 
 LaTeX Warning: Citation `InternetAutorouteDesinformation' on page 1 undefined o
 n input line 2.
@@ -483,7 +487,7 @@ LaTeX Warning: Citation `IBM2023' on page 2 undefined on input line 3.
 
 LaTeX Warning: Citation `QuEstceQu' on page 2 undefined on input line 3.
 
-<images/deepNeural.PNG, id=49, 430.0065pt x 258.36525pt>
+<images/deepNeural.PNG, id=50, 430.0065pt x 258.36525pt>
 File: images/deepNeural.PNG Graphic file (type png)
 <use images/deepNeural.PNG>
 Package pdftex.def Info: images/deepNeural.PNG  used on input line 7.
@@ -493,22 +497,29 @@ LaTeX Warning: Citation `negiDeepFakeUnderstanding2021' on page 2 undefined on
 input line 8.
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: Citation `negiDeepFakeUnderstanding2021' on page 2 undefined on 
 input line 12.
 
-[2 <./images/deepNeural.PNG>]
 
-LaTeX Warning: Citation `WhatGenerativeAdversarial' on page 3 undefined on inpu
+LaTeX Warning: Citation `WhatGenerativeAdversarial' on page 2 undefined on inpu
 t line 15.
 
-<images/GAN_architecture.PNG, id=57, 445.06274pt x 266.1945pt>
+[2]
+<images/GAN_architecture.PNG, id=56, 445.06274pt x 266.1945pt>
 File: images/GAN_architecture.PNG Graphic file (type png)
 <use images/GAN_architecture.PNG>
 Package pdftex.def Info: images/GAN_architecture.PNG  used on input line 20.
 (pdftex.def)             Requested size: 338.58632pt x 202.52113pt.
 
+
 LaTeX Warning: Citation `khanSystematicReviewDeepfake2023' on page 3 undefined 
 on input line 21.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Citation `negiDeepFakeUnderstanding2021' on page 3 undefined on 
@@ -522,7 +533,7 @@ LaTeX Warning: Citation `vanderlindenMisinformationSusceptibilitySpread2022' on
 LaTeX Warning: Citation `jlbeyerDeepFakesFake2019' on page 3 undefined on input
  line 27.
 
-) (4.impact of ai mi.tex [3 <./images/GAN_architecture.PNG>]
+) (4.impact of ai mi.tex [3 <./images/deepNeural.PNG>]
 
 LaTeX Warning: Citation `laetitiaCommentInformaitonAvant2021' on page 4 undefin
 ed on input line 4.
@@ -531,18 +542,17 @@ ed on input line 4.
 LaTeX Warning: Citation `boydensOceanDonneesCanal2012a' on page 4 undefined on 
 input line 5.
 
-) (6.solutions and prospects.tex
+[4 <./images/GAN_architecture.PNG>]) (6.solutions and prospects.tex
 
-LaTeX Warning: Citation `kanohWhyPeopleBelieve2018' on page 4 undefined on inpu
+LaTeX Warning: Citation `kanohWhyPeopleBelieve2018' on page 5 undefined on inpu
 t line 2.
 
-[4]
 
 LaTeX Warning: Citation `zhuAIEthicsOperationalizing2022' on page 5 undefined o
 n input line 4.
 
 ) (7.case study.tex
-<images/poutine.PNG, id=68, 546.24075pt x 383.031pt>
+<images/poutine.PNG, id=69, 546.24075pt x 383.031pt>
 File: images/poutine.PNG Graphic file (type png)
 <use images/poutine.PNG>
 Package pdftex.def Info: images/poutine.PNG  used on input line 10.
@@ -551,6 +561,9 @@ Package pdftex.def Info: images/poutine.PNG  used on input line 10.
 
 LaTeX Warning: Citation `coquazDeepfakeFauxMessage' on page 5 undefined on inpu
 t line 11.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: Citation `coquazDeepfakeFauxMessage' on page 5 undefined on inpu
@@ -564,7 +577,7 @@ t line 18.
 LaTeX Warning: Citation `coquazDeepfakeFauxMessage' on page 5 undefined on inpu
 t line 19.
 
-) (8.conclusion.tex [5 <./images/poutine.PNG>]) [6] (_main.bbl) (_main.aux)
+) (8.conclusion.tex [5]) [6 <./images/poutine.PNG>] (_main.bbl) (_main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -576,32 +589,28 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `_main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `_main.out':
-(rerunfilecheck)             Before: 8C7B11738DB4A15DA3572FB91B19C3E9;1317
-(rerunfilecheck)             After:  8940609A03DC39753770434582C78712;1322.
+Package rerunfilecheck Info: File `_main.out' has not changed.
+(rerunfilecheck)             Checksum: 8940609A03DC39753770434582C78712;1322.
  ) 
 Here is how much of TeX's memory you used:
- 10619 strings out of 475247
- 175850 string characters out of 5755396
- 1931801 words of memory out of 5000000
- 31967 multiletter control sequences out of 15000+600000
- 562408 words of font info for 50 fonts, out of 8000000 for 9000
+ 10621 strings out of 475247
+ 175874 string characters out of 5755396
+ 1933801 words of memory out of 5000000
+ 31968 multiletter control sequences out of 15000+600000
+ 562754 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,7n,93p,2124b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,7n,93p,2124b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/El Fab Nyl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb><C:/Users/El Fab Nyl/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb><C:/Users/El Fab Nyl/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/El Fab Nyl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/El Fab Nyl/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on _main.pdf (6 pages, 1138763 bytes).
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/El Fab Nyl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on _main.pdf (6 pages, 1163025 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
