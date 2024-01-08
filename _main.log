@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  8 JAN 2024 01:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.20)  8 JAN 2024 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,7 +475,7 @@ d on input line 4.
 (2.introduction.tex
 
 LaTeX Warning: Citation `InternetAutorouteDesinformation' on page 2 undefined o
-n input line 2.
+n input line 3.
 
 ) (3.theorical Foundation.tex
 
@@ -575,7 +575,7 @@ t line 18.
 LaTeX Warning: Citation `coquazDeepfakeFauxMessage' on page 6 undefined on inpu
 t line 19.
 
-) (8.conclusion.tex) [6 <./images/poutine.PNG>] [7] (_main.bbl) (_main.aux)
+) (8.conclusion.tex [6 <./images/poutine.PNG>]) [7] (_main.bbl) (_main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -590,7 +590,7 @@ Package rerunfilecheck Info: File `_main.out' has not changed.
 Here is how much of TeX's memory you used:
  10622 strings out of 475247
  175880 string characters out of 5755396
- 1930801 words of memory out of 5000000
+ 1928801 words of memory out of 5000000
  31968 multiletter control sequences out of 15000+600000
  562754 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -603,7 +603,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/El Fab Nyl/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
 /El Fab Nyl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on _main.pdf (7 pages, 1166266 bytes).
+Output written on _main.pdf (7 pages, 1167505 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
